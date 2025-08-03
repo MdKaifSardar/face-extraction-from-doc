@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pillow
+opencv-python
+torch
+torchvision
+torchaudio
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
+python-multipart
+requests
