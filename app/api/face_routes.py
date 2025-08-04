@@ -1,7 +1,7 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
 from fastapi.responses import StreamingResponse, JSONResponse
-from services.face_detection import detect_and_crop_face
-from models.schemas import ErrorResponse
+from app.services.face_detection import detect_and_crop_face
+from app.models.schemas import ErrorResponse
 from starlette.status import HTTP_200_OK, HTTP_400_BAD_REQUEST
 
 

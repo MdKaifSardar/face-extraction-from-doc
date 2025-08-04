@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from api import face_routes
+from app.api import face_routes
 
 app = FastAPI(title="Face Detection API", version="1.0")
 
