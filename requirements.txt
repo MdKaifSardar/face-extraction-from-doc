@@ -7,3 +7,10 @@ torchvision
 torchaudio
 python-multipart
 requests
+python-multipart
+easyocr
+fastapi
+insightface
+onnxruntime       # CPU version (remove if using GPU)
+numpy
+opencv-python-headless  # Headless version for servers (no GUI)
